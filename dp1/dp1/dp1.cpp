@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include "dp1.h"
-
+#include <iostream>
 #define MAX_LOADSTRING 100
 
 // Zmienne globalne:
@@ -26,7 +26,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(lpCmdLine);
 
     // TODO: W tym miejscu umieść kod.
-
+  std::cout << "Konrad Kruszelnicki, Kacper Rogalski, Jan Kruszyński" << std::endl;
     // Zainicjuj ciągi globalne
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
     LoadStringW(hInstance, IDC_DP1, szWindowClass, MAX_LOADSTRING);
